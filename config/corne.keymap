@@ -113,13 +113,6 @@
             bindings = <&none &kp LS(D) &kp N3 &kp F &kp Q &kp N0 &kp N &kp N1 &kp EXCL &kp N2 &kp N1 &kp N1 &kp N2>;
             label = "PERSO";
         };
-
-        mighty: mighty {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(B) &kp U &kp I &kp L &kp T &kp LS(M) &kp I &kp G &kp H &kp T &kp Y &kp N1 &kp EXCL>;
-            label = "MIGHTY";
-        };
     };
 
     keymap {
